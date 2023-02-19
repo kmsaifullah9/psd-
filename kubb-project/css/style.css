@@ -1,0 +1,510 @@
+/* =======------COMMON CSS START-----====== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ol,ul{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* =======------COMMON CSS END-----====== */
+/* =======------NAVBAR CSS START-----====== */
+#navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    padding: 30px 0;
+    background: rgba(0, 0, 0, 0.444);
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu ul {
+    display: flex;
+    padding-top: 8px;
+}
+.nav-menu ul li{
+    margin-left: 40px;
+}
+.nav-menu ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+.nav-menu ul li a:hover{
+    color: #248faa;
+}
+/* =======------NABAR CSS END-----====== */
+/* =======------BACKGROUND CSS START-----====== */
+#background{
+    /* position: relative; */
+    padding: 250px 0;
+    background:url(../images/kubb-\(bg\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-text{
+    text-align: center;
+    color: #ffff;
+}
+.bg-text h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.bg-text h3{
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+}
+.bg-text p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    /* letter-spacing: 0.2cm; */
+}
+
+/* =======------BACKGROUND CSS END-----====== */
+/* =======------HELLO CSS START-----====== */
+#hello{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.hello-text{
+    text-align: center;
+}
+.hello-text h2{
+    color: #444444;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+
+}
+.hello-text p{
+    padding-top: 30px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+/* =======------HELLO CSS END-----====== */
+/* =======------SERVICES CSS START-----====== */
+#services{
+    padding-bottom: 80px;
+}
+.service-top{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.service-top h2{
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.service-part{
+    border: 1px solid #e3e3e3;
+    width: 380px;
+    padding: 15px 20px 30px 20px;
+}
+.service-details{
+    text-align: center;
+}
+.service-details h2{
+    padding-top: 25px;
+    color: #444444;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+.service-details p {
+    padding-top: 15px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    width: 325px;
+    margin: 0 auto;
+}
+.service-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =======------SERVICES CSS END-----====== */
+/* =======------INSTAGRAM CSS START-----====== */
+#instagram{
+    background: #2c2c2c;
+    padding: 50px 0;
+}
+.latest h2{
+    text-align: center;
+    color: #d5d5d5;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.latest{
+    position: relative;
+    padding-bottom: 45px;
+}
+.aftar::after {
+    content: "";
+    height: 2px;
+    width: 100px;
+    top: 10px;
+    left: 700px;
+    position: absolute;
+    background: #535353;
+}
+
+.aftar::before {
+    content: "";
+    height: 2px;
+    width: 100px;
+    top: 10px;
+    right: 700px;
+    position: absolute;
+    background: #535353;
+}
+.instagram-img{
+    display: flex;
+    padding-bottom: 57px;
+}
+.instagram-img img{
+    width: 100%;
+    display: block;
+}
+.instagram-logo{
+    margin: 0 auto;
+    padding: 10px 10px;
+    width: 180px;
+    height: 45px;
+    border: 1px solid #535353;
+    color: #a6a6a6;
+}
+.ins-wrapper {
+    display: flex;
+    padding-top: 3px;
+    padding-left: 4px;
+}
+.ins-wrapper h3{
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/* =======------INSTAGRAM CSS END-----====== */
+
+/* =======------FROM CSS START-----====== */
+#from{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.journal{
+    position: relative;
+    padding-bottom: 30px;
+}
+.aftar::after {
+    content: "";
+    height: 2px;
+    width: 100px;
+    top: 10px;
+    left: 700px;
+    position: absolute;
+    background: #d9d9d9;
+}
+
+.aftar::before {
+    content: "";
+    height: 2px;
+    width: 100px;
+    top: 10px;
+    right: 700px;
+    position: absolute;
+    background: #d9d9d9;
+}
+.journal h2{
+    text-align: center;
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.from-part{
+    padding: 30px 0 25px 0;
+    border: 1px solid #e3e3e3;
+    width: 370px;
+}
+.from-1st h2{
+    text-align: center;
+    color: #444444;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+.from-1st p{
+    text-align: center;
+    color: #999999;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.form-2nd p {
+    line-height: 24px;
+    padding-left: 20px;
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.form-bottom p{
+    text-transform: uppercase;
+    color: #a6a6a6;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.form-bottom{
+    padding-left: 20px;
+    position: relative;
+}
+.form-after::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 106px;
+    bottom: -2px;
+    left: 22px;
+    background: #28b8d8;
+}
+.form-icon-wrapper{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-icon{
+    color: #a6a6a6;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.form-part-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =======------FROM CSS END-----====== */
+
+/* =======------ABOUT ME CSS START-----====== */
+#about{
+    padding-bottom: 80px;
+}
+.about-me h2{
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.about-me{
+    position: relative;
+
+}
+.me-after::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    left: 200px;
+    top: 10px;
+    background: #d9d9d9;
+}
+.about-part{
+    width: 49%;
+}
+.me-details{
+    /* padding-top: 30px; */
+    padding-left: 25px;
+
+}
+.me-details h3{
+    color: #666666;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+.me-details p{
+    padding-top: 20px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about-me-wrapper{
+    padding-top: 30px;
+    display: flex;
+}
+.my-service{
+    position: relative;
+
+}
+.my-service h2{
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.my-after::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    left: 140px;
+    top: 10px;
+    background: #d9d9d9;
+}
+.about-part-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.photo-icon i{
+    font-size: 40px;
+    color: #28b8d8;
+}
+.photograph-wrapper{
+    display: flex;
+    padding-top: 25px;
+}
+.photograph{
+    padding-left: 15px;
+}
+.photograph h3{
+    color: #444444;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+.photograph p{
+    padding-top: 7px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    width: 460px;
+}
+
+
+/* =======------ABOUT ME CSS END-----====== */
+
+/* =======------FOOTER CSS START-----====== */
+#footer{
+    background: #373737;
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+}
+.footer-1st{
+    width: 266px;
+}
+.footer-1st h3{
+    color: #f0f0f0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer-1st p{
+    padding-top: 24px;
+    /* padding-bottom: 30px; */
+    color: #cacaca;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photograph-wrapper1{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.footer-icon{
+    font-size: 20px;
+    color: #cacaca;
+    margin-right: 17px;
+}
+.footer-text{
+    color: #cacaca;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.part3re span{
+    color: #929292;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* =======------FOOTER CSS END-----====== */
+/* =======------LAST CSS START-----====== */
+#last-part{
+    background: #333333;
+    padding: 35px 0;
+}
+#last-part p{
+    color: #cacaca;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/* =======------LAST CSS END-----====== */
+
+
+
+
+
